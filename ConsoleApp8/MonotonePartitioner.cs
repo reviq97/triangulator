@@ -37,7 +37,6 @@
             var status = new List<Edge>();
             var helpers = new Dictionary<Edge, Vertex>();
             var diagonals = new List<(Vertex, Vertex)>();
-            qq
             while (queue.Count > 0)
             {
                 var v = queue.Dequeue();
